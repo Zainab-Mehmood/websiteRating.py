@@ -33,26 +33,29 @@ print()
 dictionary = {"name": name, "url": url, "des": desc, "rating": rating}
 
 for name, value in dictionary.items(): 
-    print(f"{name.title()}:{value}")```
+    print(f"{name.title()}:{value}")
 
-**Requirements**
+python```
+
+##Requirements
 Python 3.x
 
-**How to Run**
+##How to Run
 Save the script in a file named website_rating.py.
 Open a terminal or command prompt.
 Navigate to the directory containing the script.
 Run the script using the command:
 ```python
 python website_rating.py
+python```
 
-**Customization**
+##Customization
 You can extend the dictionary to include more fields like category, popularity, or launch year.
 Enhance the script to validate inputs (e.g., ensure the URL starts with http:// or https://).
-**License**
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Contributions**
+##Contributions
 Feel free to submit issues, fork the repository, or suggest new features. Contributions are always welcome!
 
 🌟 Happy Coding!
