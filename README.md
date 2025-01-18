@@ -33,7 +33,7 @@ print()
 dictionary = {"name": name, "url": url, "des": desc, "rating": rating}
 
 for name, value in dictionary.items(): 
-    print(f"{name.title()}:{value}")
+    print(f"{name.title()}:{value}")```
 
 **Requirements**
 Python 3.x
